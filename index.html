@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    James McDonald | React Front-End Developer | Kilkenny, Ireland
+  </title>
+
+  <meta name="description" content="James McDonald – React Front-End Developer with a passion for clean UI, TDD, and full-stack JavaScript applications. Based in Ireland, open to remote roles and collaboration." />
+  <meta name="keywords" content="James McDonald, React, JavaScript, TypeScript, Tailwind CSS, Vitest, Front-End Developer, TDD, Web Development, Kilkenny, Full-Stack Developer" />
+  <meta name="author" content="James McDonald" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>James McDonald</span>
+        </h1>
+        <p>React Front-End Developer with a strong Java foundation and a growing full-stack skillset</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Assembly Endgame</h3>
+              <p>
+                A minimalist React word game where players guess programming terms to save them from extinction. Built with clean UI logic, keyboard interaction, and resettable game flow.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Vite</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://steady-zabaione-6cc0f4.netlify.app/" target="_blank" class="link__text">
+                  Live Demo <span>&rarr;</span>
+                </a>
+                <div class="github-link">
+                  <a href="https://github.com/jamesmcdonald112/assembly-endgame" target="_blank" class="link__text">
+                    View on GitHub <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/jamesmcdonald112/assembly-endgame" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/assembly-endgame.png" class="work__image" alt="Assembly Endgame Screenshot" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Tenzies Dice Game</h3>
+              <p>
+                A quick and fun dice game built with React. Players roll and hold dice until all values match. Features random number generation, conditional rendering, and clean UI state management.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Vite</li>
+                <li>CSS</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://tubular-tanuki-8c6e5f.netlify.app/" target="_blank" class="link__text">
+                  Live Demo <span>&rarr;</span>
+                </a>
+                <div class="github-link">
+                  <a href="https://github.com/jamesmcdonald112/tenzies" target="_blank" class="link__text">
+                    View on GitHub <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/jamesmcdonald112/tenzies" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+                </div>                
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/tenzies.png" class="work__image" alt="Tenzies Dice Game Screenshot" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Meme Generator</h3>
+              <p>
+                A fun and responsive meme generator app. Enter text and get a custom meme image from an API in real time.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://aquamarine-mochi-dcbd3f.netlify.app/" target="_blank" class="link__text">
+                  Live Demo <span>&rarr;</span>
+                </a>
+                <div class="github-link">
+                  <a href="https://github.com/jamesmcdonald112/meme-generator" target="_blank" class="link__text">
+                    View on GitHub <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/jamesmcdonald112/meme-generator" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+                </div>               
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/meme-generator.png" class="work__image" alt="Meme Generator Screenshot" />
+            </div>
+          </div>
+
+    <!-- ***** Clients ***** -->
+<!-- 
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm a React Front-End Developer based in Kilkenny, Ireland. I enjoy breaking complex problems into simple, testable pieces and crafting clean, accessible user interfaces with TypeScript, Tailwind, and Vitest. Test-Driven Development is at the core of my workflow, helping me stay focused and build scalable, maintainable code.
+            </p>
+            <p>
+              I hold a First Class Honours in Software Development from Atlantic Technological University, and I bring a creative mindset from my earlier career in classical music and private teaching. Alongside my front-end work, I have a solid foundation in Java, OOP, and backend logic — and I’m actively expanding my full-stack capabilities through tools like Node.js, Express, SQL, and Next.js.
+            </p>
+            <a href="./jamesmcdonald-cv.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/james.png" alt="James McDonald Headshot" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:james@jamesmcdonald.dev" class="btn">james@jamesmcdonald.dev</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/jamesmcdonald112" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/jamesmcdonald-dev/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
